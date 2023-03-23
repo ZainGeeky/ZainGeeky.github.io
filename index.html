@@ -1,20 +1,46 @@
 <html>
     <head>
         <title>This is my Html Page</title>
+        <!--External CSS linking-->
+        <link href="style.css" rel="stylesheet">
+        <!-- rel means relationship-->
+
+        <!--<style>
+            #cssid{
+               font-size: 50px; 
+               text-align: center; 
+               background-color: rgb(57, 233, 13); 
+               margin-top: 30px;
+            }
+            .cssColor{color: rgb(18, 245, 161);}
+            .cssAlignment{text-align: center;}
+            .cssbgcolor{background-color: rgb(97, 13, 233); }
+            
+        </style>-->
+
     </head>
-    <body>
+    <body style=" background-color: rgb(210, 207, 156);">
         <!-- This is a commit-->
         <!--Heading Start-->
-        <h1>Kantara</h1>
-        <h2>Farzi</h2>
-        <h3>RRR</h3>
-        <h4>Pathaan</h4>
-        <h5>Wednesday</h5>
+
+        <!--Internal CSS EXAMPLE-->
+        <h1  id="cssid" style="color:rgba(89, 3, 154, 0.99)">MOVIES</h1>
+
+         <!--Inline CSS EXAMPLE-->
+        <h2 style="font-size: 40px; text-align: center; background-color: rgb(13, 193, 233); margin-top: 30px;color :rgba(242, 230, 3, 0.99)">Farzi</h2>
+
+        <h3 style="font-size: 50px; text-align: center; background-color: rgb(241, 69, 69); margin-top: 30px; color:rgb(0, 0, 0)"></h>R<span style="font-size: 80px;">R</span>R </h3>
+       
+        <h4 style="text-align: center;font-size: 30px;  background-color: rgb(234, 163, 48);"> <span style="color:rgb(241, 69, 69);font-size: 50px;">P</span>athaan</h4>
+
+        <h4 id="cssid" style="color:blue" >Wednesday</h4>
+        <!--to enter class-->
+        <h1 class="cssColor cssAlignment cssbgcolor" >ZAIN</h1>
         <!--End of heading tag-->
         <p>The <b>company</b> itself is a very <strong>successful </strong> company. Flee, body! Woe to the <i>architect</i> who, even as the duties of bringing things to them happy pleasure, seeks some fault with hateful insight! Let anyone be of any mind!/p>
         <p></p>
 
-        <a href="https://www.youtube.com" target="_blank">Facebook</a>   
+        <a href="https://www.youtube.com" target="_blank">youtube</a>   
         <p></p>
 
         <table border="2">
@@ -46,7 +72,7 @@
         </table>
         <!--unordered lis-->
         <ul>
-            <li>Virat kholi</li>
+            <li>iPhone 14 Pro Max</li>
             <li>Charger</li>
             <li>Airpods</li>
         </ul>
@@ -97,6 +123,20 @@
         <input type="radio" name="gender">male 
         <input type="radio" name="gender">female 
         <br></br>
-        <input type="checkbox" name="terms"> I accept terms and conditions
+        <input type="checkbox" name="terms"> I accept terms <span>hehe</span> and conditions
+        <br></br>
+        <button>submit</button>
+        
+        <!--CSS-CAscading Style Sheets-->
+        <!--Inline CSS
+            Internal CSS
+            External CSS-->
+        <!--div tag is smilar to p tag-->
+        <div>
+
+
+        </div>
+
+    
     </body>
 </html>
