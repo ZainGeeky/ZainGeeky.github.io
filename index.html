@@ -1,142 +1,352 @@
-<html>
-    <head>
-        <title>This is my Html Page</title>
-        <!--External CSS linking-->
-        <link href="style.css" rel="stylesheet">
-        <!-- rel means relationship-->
-
-        <!--<style>
-            #cssid{
-               font-size: 50px; 
-               text-align: center; 
-               background-color: rgb(57, 233, 13); 
-               margin-top: 30px;
-            }
-            .cssColor{color: rgb(18, 245, 161);}
-            .cssAlignment{text-align: center;}
-            .cssbgcolor{background-color: rgb(97, 13, 233); }
-            
-        </style>-->
-
-    </head>
-    <body style=" background-color: rgb(210, 207, 156);">
-        <!-- This is a commit-->
-        <!--Heading Start-->
-
-        <!--Internal CSS EXAMPLE-->
-        <h1  id="cssid" style="color:rgba(89, 3, 154, 0.99)">MOVIES</h1>
-
-         <!--Inline CSS EXAMPLE-->
-        <h2 style="font-size: 40px; text-align: center; background-color: rgb(13, 193, 233); margin-top: 30px;color :rgba(242, 230, 3, 0.99)">Farzi</h2>
-
-        <h3 style="font-size: 50px; text-align: center; background-color: rgb(241, 69, 69); margin-top: 30px; color:rgb(0, 0, 0)"></h>R<span style="font-size: 80px;">R</span>R </h3>
-       
-        <h4 style="text-align: center;font-size: 30px;  background-color: rgb(234, 163, 48);"> <span style="color:rgb(241, 69, 69);font-size: 50px;">P</span>athaan</h4>
-
-        <h4 id="cssid" style="color:blue" >Wednesday</h4>
-        <!--to enter class-->
-        <h1 class="cssColor cssAlignment cssbgcolor" >ZAIN</h1>
-        <!--End of heading tag-->
-        <p>The <b>company</b> itself is a very <strong>successful </strong> company. Flee, body! Woe to the <i>architect</i> who, even as the duties of bringing things to them happy pleasure, seeks some fault with hateful insight! Let anyone be of any mind!/p>
-        <p></p>
-
-        <a href="https://www.youtube.com" target="_blank">youtube</a>   
-        <p></p>
-
-        <table border="2">
-            <thead>
-                <tr>
-                    <td>  sl  </td>
-                    <td>  ott series  </td>
-                    <td>  Ratings  </td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>   
-                    <td>1</td>
-                    <td>Money Heist</td>
-                    <td>4.5/5</td>
-                </tr>    
-                <tr>   
-                    <td> 2 </td>
-                    <td> TMKOC </td>
-                    <td> 4.5/5 </td>
-                </tr>  
-                <tr>   
-                    <td> 3 </td>
-                    <td> Farzi </td>
-                    <td> 4.5/5 </td>
-                </tr>   
-            </tbody>
-
-        </table>
-        <!--unordered lis-->
-        <ul>
-            <li>iPhone 14 Pro Max</li>
-            <li>Charger</li>
-            <li>Airpods</li>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">ZainGeeky</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Explore</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <!--end of unordered lis-->
-        <!--ordered lis-->
-        <ol>
-            <li>zain</li>
-            <li>Razi</li>
-            <li>Abhijith</li>
-        </ol>
-        <!--end of ordered lis-->
-
-        <img src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8NGslMjB3YWxscGFwZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60" alt="image is broken" width="600" >
-        <br></br>
-        <img src="fatih-yurur-kNSREmtaGOE-unsplash.jpg" alt="offline" width="300" >
-        <p></p>
-        <!--Form Start-->
-        <Label>First Name</Label>
-        <input Type="Text">
-        <br></br>
-        <Label>Middle Name</Label>
-        <input Type="Text">
-        <br></br>
-        <Label>Last Name</Label>
-        <input Type="Text">
-        <br></br>
-        <Label>DOB</Label>
-        <input Type="date">
-        <br></br>
-        <Label>Password</Label>
-        <input Type="Password">
-        <br></br>
-        <Label>Phno</Label>
-        <input Type="number">
-        <Label>Colour picker</Label>
-        <input Type="color">
-        <br></br>
-        <!--Form End-->
-        <label>States</label>
-        <select>
-            <option disabled>--select--</option>
-            <option selected value="1">Karnataka</option>
-            <option value="2">Tamil Nadu</option>
-            <option value="3">Andra Pradesh</option>
-        </select>
-        <br></br>
-        <label> select your gender</label>
-        <input type="radio" name="gender">male 
-        <input type="radio" name="gender">female 
-        <br></br>
-        <input type="checkbox" name="terms"> I accept terms <span>hehe</span> and conditions
-        <br></br>
-        <button>submit</button>
-        
-        <!--CSS-CAscading Style Sheets-->
-        <!--Inline CSS
-            Internal CSS
-            External CSS-->
-        <!--div tag is smilar to p tag-->
-        <div>
-
-
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">My Portfolio</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-
-    
-    </body>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/ZainProfile.jpeg" alt="Zainuddin profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h2 class="title"> Muhammed Zainuddin Moosa</h2>
+        <p class="section__text__p2">Software Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/muhammed-zainuddin-moosa-4a38991b9/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/ZainGeeky'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/ZainProfile2.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <br>
+              <ul>
+                
+                <li><b>Bachelor of Engineering, CSE(Artificial Intelligence and Machine Learning)</b>, (12/2023)
+                Sahyadri College of Engineering and Management, Adyar, Mangaluru, India</li><br>
+                <li><b>Pre-University PUC, Science stream (PCMC)</b>, (01/2020) Mahesh PU College</li><br>
+                <li><b>Secondary Education - SSLC (CBSE)</b>, (01/2018) NITK English Medium School</li>
+                
+              </ul>
+              
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Determined professional seeking a role in an innovative organization where I can leverage my skills to positively
+               impact company achievements. Eager to contribute to a motivated team and foster continuous professional growth.
+                To seek and maintain full-time position that offers 
+              professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <ul>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C/C++</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          </div>
+        </div>
+      </ul>
+      <ul>
+        <h1 class="title">& Awards</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title"></h2>
+              
+                 
+                  <div>
+                    <h2> 
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    /> Technical Paper Presentation - ANVESH 23 IEEE Student Branch, 07/06/23, Secured Third position</h2>
+                  </div>
+                
+              </div>
+            </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Project1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Image Forgery Detection</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ZainGeeky/Image-Forgery-Detection'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo -->
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/hostel.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Hostel Management System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ZainGeeky/DBMS_PRJ'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Project3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Taaza Khabar (News App)</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ZainGeeky/Taaza-khabar-news-App'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:muhammedzainuddinmusa@gmail.com">muhammedzainuddinmusa@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/muhammed-zainuddin-moosa-4a38991b9/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 ZainGeeky. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
