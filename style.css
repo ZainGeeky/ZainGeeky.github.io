@@ -341,12 +341,14 @@ section {
   flex-wrap: relative;
   flex-direction: row;
   justify-content: space-around;
+  gap:  10px;
+
 }
 
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   gap: 0 rem;
 }
 
