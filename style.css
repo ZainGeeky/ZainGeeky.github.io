@@ -338,17 +338,19 @@ section {
 .article-container {
   display: flex;
   text-align: initial;
+  justify-content: center;
+  /* width: 40rem; */
   flex-wrap: relative;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   gap:  10px;
 
 }
 
 article {
   display: flex;
-  /* width: 1rem; */
-  justify-content: space-around;
+  width: 10rem;
+  /* justify-content: space-around; */
   gap: 0 rem;
 }
 
